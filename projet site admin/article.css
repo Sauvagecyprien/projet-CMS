@@ -1,0 +1,155 @@
+body {
+  height: 100%;
+  width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+        font-family: Arial;
+        font-size: 14px;
+        background: #f8f8fa;
+      font-family: Arial, Helvetica, sans-serif;
+      
+}
+
+
+
+
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+   
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+
+
+.body_art {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    background: #f8f8fa;
+    height: 100%;
+   float: left;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.texte {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.hr {
+    width: 90%;
+    border: 1px solid grey;
+}
+
+.auteur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.retour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.cc_news{
+  width: 300px;
+  overflow: auto;
+  float: right;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  border-bottom: solid 1px #ededed;
+}
+
+.cc_news img{
+  border-radius: 5px;
+}
+
+.cc_news a{
+background: #67bdcc;
+text-decoration: none;
+color: #fff;
+padding: 5px;
+display: block;
+width: 80px;
+text-align: center;
+border-radius: 5px;
+
+}
+
+.cc_news a:hover{
+  background: #4ea6b7;
+}
+
+
+#content_center{
+  width: 30%;
+
+  overflow: auto;
+  border-bottom: solid 1px #ededed;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+
+
+
+}
+
+
+
+.picture img {
+  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+  transition: all 1s ease;
+  }
+.picture:hover img {
+  /* L'image est grossie de 25% */
+  -webkit-transform:scale(1.15); /* Safari et Chrome */
+  transform:scale(1.15);
+  }
+
+
+
+/*---/ footer /---*/
+.footer-end{
+  width: auto;
+  overflow: auto;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  margin: 10px 10px 0 10px;
+  border-radius: 5px;
+}
